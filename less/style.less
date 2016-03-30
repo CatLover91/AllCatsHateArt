@@ -1,0 +1,53 @@
+/* ---- reset ---- */
+
+body {
+  margin:0;
+  font-family: 'Yellowtail', cursive;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+.cat-cont{
+  position:fixed;
+  left:0;
+  bottom:0;
+  z-index:99;
+  width:500px;
+  height:250px;
+  
+  #cat {
+    background-image:url("http://36.media.tumblr.com/cef9b11c53ac8ffb10b6b3c21654c777/tumblr_inline_nqm3xfRYhW1qb81eh_500.png");
+    background-repeat:no-repeat;
+    background-size: contain;
+    position:absolute;
+    bottom:0;
+    height:250px;
+    width:360px;
+  }
+  #message {
+    border-radius:30px 30px 30px 0;
+    font-size:50px;
+    padding:20px 40px 20px 20px;
+    position:absolute;
+    top:0;
+    right:0;
+    background-color:black;
+    color:white;
+    border:5px solid white;
+    
+  }
+}
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
